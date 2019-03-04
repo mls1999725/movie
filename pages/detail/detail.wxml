@@ -1,0 +1,8 @@
+<view class='container'>
+  <text style='font-weight:bold;font-size:50rpx'>{{movie.name}}</text>
+  <text>评分：{{movie.overallRating}}分
+  </text>
+  <text>时长：{{movie.mins}}</text>
+  <image class="detail-image" src='{{movie.img}}'> </image>
+  <text>{{movie.story}}</text>
+</view>
